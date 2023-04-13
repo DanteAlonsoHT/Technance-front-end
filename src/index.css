@@ -1,0 +1,42 @@
+/* Coustom */
+.logo-vm-text {
+  height: 92px;
+  width: calc(2.5*92px);
+}
+.logo-vm {
+  height: 92px;
+  width: calc(2.5*92px);
+}
+.btn-block:hover {
+  border-color: #fff;
+  background-color: #0b3d91;
+  color: #fff;
+}
+
+.custom-file-upload {
+  border-radius: 2rem;
+  padding: 0.75rem;
+  font-size: 16px;
+  color: #0b3d91;
+  background-color:#fff;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+}
+
+@media only screen and (max-width: 991px) {
+  .sabuj_ml_tb_2 {
+    margin-left: 0.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-vm-text {
+    height: 75px;
+    width: calc(2.5*75px);
+  }
+  .logo-vm {
+    height: 75px;
+    width: calc(2.5*75px);
+  }
+}
